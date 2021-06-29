@@ -1,0 +1,28 @@
+angualr is a framwork
+application programming interface 
+HTTP end point send HTTP request to get some load data
+backend contain buisnes logic, front end contain presentation logic
+hot modeule replacement/reloading (HMR)
+typescrit is not supported by browser so we have to traspile TS into JS
+type assertions is the way to define the variable type: like stirng, boolen etc.3
+interface is basically defining the shape of an object. they used only for decleartions
+cohesion is thhings which are realted should be part of one unit, they should go together
+Class is group of veriable and fuction that  are highly related. 
+in OOP terms, Class variable refers to field and fuctions are methods 
+an object is instance of a class.
+constructor
+access modifier, default is public, and we can change them private, means not longer to access outsite the class
+Property looks like a field form the out side but actually method from the inside
+If we exporting any class it is a type of module
+
+Component encapsulate the data, the html markup, and the logic to view, the area of the screen which user see
+Modules is container which contain realated Components
+Dependency injection is the technique in which an object  recive other objects that it depends on.
+We have to register all the dependences of the component into module provided.
+$event.stopPropogation() => stop event bubbling, means its only trigger current event no the parent div events.
+
+
+
+
+enum means
+injectable decorator 
