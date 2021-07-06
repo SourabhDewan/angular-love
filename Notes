@@ -26,3 +26,7 @@ $event.stopPropogation() => stop event bubbling, means its only trigger current 
 
 enum means
 injectable decorator 
+
+
+
+https://tracker.sw-gr.com/pack-digitization/applicant/umbrella_pack/7ced7b41-67a5-41a2-9aa3-42ca105e129d/havs-initial-form
