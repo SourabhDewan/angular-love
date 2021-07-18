@@ -13,6 +13,8 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostService } from './services/post.service';
+import { GithubFollowersComponent } from './github-followers/github-followers.component';
+import { GithubFollowersService } from './github-service/github-followers.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { PostService } from './services/post.service';
     AuthorsComponent,
     SignupFormComponent,
     ChangePasswordComponent,
-    PostsComponent
+    PostsComponent,
+    GithubFollowersComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { PostService } from './services/post.service';
   providers: [
     PostService,
     CoursesService,
-    AuthorsService
+    AuthorsService,
+    GithubFollowersService
   ],
   bootstrap: [AppComponent]
 })

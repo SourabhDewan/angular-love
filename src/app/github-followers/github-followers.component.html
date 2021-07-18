@@ -1,0 +1,15 @@
+<p>github-followers works!</p>
+<ul class="list-unstyled">
+    <li *ngFor="let follower of followers" class="media d-flex">
+      <div id="div">
+          <img src="{{ follower.avatar_url}}" class="mr-3" alt="...">
+      </div>
+      <div style="margin: 10px;">
+          <h5 class="mt-0 mb-1">{{ follower.login}}</h5>
+          <a href="follower.html_url" target="_blank">{{follower.html_url}}</a>
+      </div>
+      
+    </li>
+    
+    
+  </ul>
